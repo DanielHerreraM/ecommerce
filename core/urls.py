@@ -34,5 +34,5 @@ router.register(r'reemboslos',ReembolsoViewSet)
 
 
 urlpatterns = [
-    path('api',include(router.urls)),
+    path('api/', include(router.urls)),
 ]
